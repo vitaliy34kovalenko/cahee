@@ -76,11 +76,11 @@ img {
 .categories-nav__item {
 	position: relative;
 	padding-right: 39px;
+	border-top: 3px solid transparent;
+	line-height: 2;
 }
 
 .categories-nav__item:hover {
-	position: absolute;
-	top: 0px;
 	border-top: 3px solid #ff6033;
 }
 
@@ -125,6 +125,9 @@ img {
 	margin-bottom: 69px;
 }
 
+.scroll:hover {
+
+}
 /*About*/
 
 .about {
@@ -151,5 +154,7 @@ img {
 	margin-bottom: 200px;
 	width: 509px;
 }
+
+/*Services*/
 
 
