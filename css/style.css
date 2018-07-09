@@ -201,40 +201,58 @@ img {
   	box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.5);
 }
 
+.services-list__item:last-child {
+	margin-bottom: 0px;
+}
+
 .services-list__item--shopping:after {
 	content: '';
   	position: absolute;
-  	top: 22px;
+  	top: 25px;
   	left: 320px;
   	width: 47px;
   	height: 44px;
 	background: url(../img/shopping.svg) no-repeat;
 }
 
-.icon {
-  background-color: rgb(38, 38, 38);
-  position: absolute;
-  left: 592px;
-  top: 1907px;
-  width: 47px;
-  height: 44px;
-  z-index: 140;
+.services-list__item--product:after {
+	content: '';
+  	position: absolute;
+  	top: 25px;
+  	left: 320px;
+  	width: 50px;
+  	height: 50px;
+	background: url(../img/QP.svg) no-repeat;
 }
 
+.services-list__item--delivery:after {
+	content: '';
+  	position: absolute;
+  	top: 25px;
+  	left: 320px;
+  	width: 55px;
+  	height: 55px;
+	background: url(../img/delivery.svg) no-repeat;
+}
 
-.services-list__item:last-child {
-	margin-bottom: 0px;
+.services-list__item--organized:after {
+	content: '';
+  	position: absolute;
+  	top: 25px;
+  	left: 320px;
+  	width: 55px;
+  	height: 55px;
+	background: url(../img/organized.svg) no-repeat;
 }
 
 .services-list__link {
-	display: inline-block;
-	line-height: 1.35;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	text-align: center;
-	vertical-align: middle;
 	height: 100%;
 	width: 300px;
 	border-right: 1px solid #9d9d9d;
-	text-align: center;
 }
 
 
